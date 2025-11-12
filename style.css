@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at center, #000010 0%, #000 100%);
+  overflow: hidden;
+  color: white;
+  font-family: "Press Start 2P", monospace;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
+  background: url('https://i.imgur.com/jbJmI2g.png') repeat-y center;
+  background-size: cover;
+}
+
+#menu {
+  text-align: center;
+  margin-top: 15%;
+}
+
+button {
+  font-family: "Press Start 2P", monospace;
+  font-size: 14px;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #00bfff;
+}
+
+#hud {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+}
